@@ -32,15 +32,13 @@ public class ServerThread extends Thread {
 
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
             PrintWriter writer = new PrintWriter(bw, true);
-            writer.println("*99*1##");
+            writer.print("*99*1##");
             writer.flush();
 
             BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             String line;
 
             while ((line = br.readLine()) != null) {
-                //line = br.readLine();
-
                 if (line != null) {
                     Log.i("Dev", "Line ");
 

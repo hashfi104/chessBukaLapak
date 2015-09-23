@@ -1121,7 +1121,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050086;
+        public static final int action_settings=0x7f050085;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int b1=0x7f05007e;
@@ -1231,7 +1231,6 @@ containing a value of this type.
         public static final int tableRow6=0x7f05006a;
         public static final int tableRow7=0x7f050073;
         public static final int tableRow8=0x7f05007c;
-        public static final int text2=0x7f050085;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
